@@ -1,13 +1,13 @@
-import styled from 'style-components';
+import styled from 'styled-components';
 
-export const container = styled.div`
+export const Container = styled.div`
  width: 100%;
  height: 70px;
  background: #20295F;
  border-bottom: 5px solid #EE6B26;
 
  display: flex;
-`
+`;
 
 export const LeftSide = styled.div`
  width: 50%;
@@ -18,9 +18,9 @@ export const LeftSide = styled.div`
 
  img {
     width: 140px;
-    height: 40pc;
+    height: 5pc;
  }
-`
+`;
 
 export const RightSide = styled.div`
  width: 50%;
@@ -33,8 +33,8 @@ a {
     color: #FFF;
     font-weight: bold;
     text-decoration: none;
-    margin: 0 10px;
-
+    margin: 0 10px; 
+    
     
 }
-`
+`;

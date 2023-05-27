@@ -5,7 +5,7 @@ import logo from '../../assets/logo.png';
 
 function Header() {
     return (
-        <S.container>
+        <S.Container>
           <S.LeftSide>
             <img src={logo} alt="logo" />
           </S.LeftSide>
@@ -14,7 +14,7 @@ function Header() {
             <a href="#">NOVA TAREFA</a>
             <a href="#">SINCRONIZAR CELULAR</a>
           </S.RightSide>
-        </S.container>
+        </S.Container>
     )
 }
 
