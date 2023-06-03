@@ -35,6 +35,18 @@ a {
     text-decoration: none;
     margin: 0 10px; 
     
-    
+    &:hover{
+        color: #EE6B26
+    }
+
 }
+
+#notificatio {
+    img{
+        width: 25px;
+        height: 30px;
+    }
+
+}
+
 `;
